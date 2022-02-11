@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    height: 400px;
+    background-size: 100%;
+    background-position-y: center;
+    color: white;
+}
+h1{
+    padding: 2%;
+    font-size: 3em;
+    font-family: 'Times New Roman';
+    font-style: normal;
+}
+#subt{
+    position: absolute;
+    padding: 2%;
+    bottom: 1%; 
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    position: absolute;
+    padding: 2%;
+    top: 1%;
+    right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+.link:hover{
+    opacity: 0.5;
+}
+
+
+
+#SEC1{
+    text-align: center;
+}
+#SEC1 h2{
+    margin-top: 30px;
+}
+#SEC1 table{
+    display:flex;
+    justify-content: center;
+}
+#SEC1 td{
+    font-size: 12px;
+}
+
+
+
+
+
+#SEC2{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.anuncios{
+    margin: 20px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+.anuncio{
+    margin: 0 5px 0 5px;
+    text-align: left;
+    width: 20%;
+    height:350;
+    background-color: rgb(241, 238, 238);
+    display: inline-block;
+}
+.anuncio img{
+    width: 100%;
+    object-fit: contain;
+}
+.p1{
+    font-size: 90%; 
+    margin: 5% 5% 5% 5%; 
+}
+.p2{
+    font-size: 70%; 
+    margin: 5% 5% 5% 5%; 
+}
+.p3{
+    font-size: 80%; 
+    color: rgb(46, 153, 55); 
+    margin: 5% 5% 5% 5%; 
+}
+.props{
+    padding: 0% 8% 0% 8%;
+}
+.props td{
+    width: 15%;
+}
+.props img{
+    width: 110%;
+}
+.props p{
+    text-align: center;
+    font-size: 80%;
+}
+.verPropiedad{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.verPropiedad button{
+    border: none;
+    background-color: rgb(235, 122, 16);
+    color: white;
+    font-size: 80%;
+    padding: 3%;
+}
+.verPropiedad button:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.verto{
+    display: flex;
+    justify-content: center;
+}
+.verto button{
+    background-color: rgb(52, 207, 5);
+    border: none;
+    padding: 5px 15px 5px 15px;
+    margin: 10px;
+    color: white;
+    font-size: 14px;  
+}
+.verto button:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+
+
+
+
+
+#encuentra {
+    position: relative;
+    height: 250px;
+    background-size: 100%;
+    background-position-y: center;
+    color: white;
+    margin: 30px 0 0 0;
+}
+#encuentra :first-child{
+    margin-left: 12%; 
+    padding-top: 5%; 
+    font-size: 200%;
+}
+#encuentra :nth-child(2){
+    margin: 1% 0 0 12%; 
+}
+#encuentra button{
+    background-color: rgb(235, 122, 16);
+    border: none;
+    color: white;
+    font-size:larger;
+    padding: 5px 15px 5px 15px;;       
+    margin: 3% 0 0 12%;  
+}
+#encuentra button:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+
+
+
+footer{
+    position: relative;
+    padding-left: 3%;
+    padding: 1%;
+    background-color: rgb(77, 76, 76);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer > table{
+    position: absolute;
+}
+
+footer > span{
+    position: absolute;
+    right: 3%;
+    font-size: 80%;
+}
+
+    
+
